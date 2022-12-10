@@ -1,12 +1,12 @@
 import React, { FC } from 'react';
 import './App.css';
-import Home from './components/home';
+import Home from './components/pages/home';
 import Navbar from './components/navbar';
 import { Route, Routes } from 'react-router';
-import About from './components/about';
-import Contact from './components/contact';
+import About from './components/pages/about';
+import Contact from './components/pages/contact';
 import Footers from './components/footer';
-import Registerform from './components/form';
+import Registerform from './components/pages/form';
 
 const App: FC = () => {
   return (

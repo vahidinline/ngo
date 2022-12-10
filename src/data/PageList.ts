@@ -1,7 +1,7 @@
-import About from '../components/about';
-import Contact from '../components/contact';
-import Registerform from '../components/form';
-import Home from '../components/home';
+import About from '../components/pages/about';
+import Contact from '../components/pages/contact';
+import Registerform from '../components/pages/form';
+import Home from '../components/pages/home';
 
 const PageList = [
   {
@@ -20,7 +20,7 @@ const PageList = [
     component: Contact,
   },
   {
-    name: 'form',
+    name: 'Form',
     path: '/form',
     component: Registerform,
   },
